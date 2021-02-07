@@ -1,0 +1,6 @@
+Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5
+Roast_Light,Process_Washed,citrus,Country_Ethiopia,red.berries,hazelnut
+Roast_Light-Medium,Process_Washed,bourbon,sl28,sl34,Country_Kenya
+Roast_Medium,Process_Washed,caturra,cherry,milk.chocolate,bourbon
+Roast_Medium-Dark,smooth,toasted.marshmallow,Country_Ethiopia/Sumatra/Peru,Country_Uganda/Papua New Guinea/Sumatra,Process_Various
+Roast_NA,Process_Washed,almond.toffee,typica,Country_NA,caturra

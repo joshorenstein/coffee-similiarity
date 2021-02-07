@@ -62,11 +62,11 @@ View(results.similarity)
 write.csv(results.similarity,file="final-coffee-similarity.csv")
 
 # Get the top 3 neighbors for each
-data.coffee.neighbors <- matrix(NA, nrow=ncol(results.similarity),ncol=4,dimnames=list(colnames(results.similarity)))
+data.coffee.neighbors <- matrix(NA, nrow=ncol(results.similarity),ncol=6,dimnames=list(colnames(results.similarity)))
 
 for(i in 1:ncol(results)) 
 {
-  data.coffee.neighbors[i,] <- (t(head(n=4,rownames(results.similarity[order(results.similarity[,i],decreasing=TRUE),][i]))))
+  data.coffee.neighbors[i,] <- (t(head(n=6,rownames(results.similarity[order(results.similarity[,i],decreasing=TRUE),][i]))))
 }
 (data.coffee.neighbors)
 
@@ -76,11 +76,14 @@ rownames(data.coffee.neighbors) <- 1:nrow(data.coffee.neighbors)
 names(data.coffee.neighbors)
 df <- as.data.frame(data.coffee.neighbors) %>% 
   select(-V2) %>% 
-  rename(Sim_1=V3,Sim_2=V4,Sim_3=V5)
+  rename(Sim_1=V3,Sim_2=V4,Sim_3=V5,Sim_4=V6,Sim_5=V7)
 
-df 
+View(df)
 #filter by country
-df %>% filter(grepl('Country',Descriptor)) %>% view()
+country <- df %>% filter(grepl('Country',Descriptor))
+roast <- df %>% filter(grepl('Roast',Descriptor))
+process <- df %>% filter(grepl('Process',Descriptor))
+View(process)
 #View(data.coffee.neighbors)
 # Output neighbor results to a file  
 df %>% write_csv("final-coffee-item-neighbors.csv")
