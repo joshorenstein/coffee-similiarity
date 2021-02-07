@@ -80,10 +80,14 @@ df <- as.data.frame(data.coffee.neighbors) %>%
 
 View(df)
 #filter by country
-country <- df %>% filter(grepl('Country',Descriptor))
-roast <- df %>% filter(grepl('Roast',Descriptor))
-process <- df %>% filter(grepl('Process',Descriptor))
-View(process)
-#View(data.coffee.neighbors)
-# Output neighbor results to a file  
-df %>% write_csv("final-coffee-item-neighbors.csv")
+country <- df %>% filter(grepl('Country',Descriptor)) %>%  arrange(Descriptor)
+roast <- df %>% filter(grepl('Roast',Descriptor)) %>% arrange(Descriptor)
+process <- df %>% filter(grepl('Process',Descriptor)) %>% arrange(Descriptor)
+note <- df %>% filter(!grepl('Country',Descriptor)) %>%
+   filter(!grepl('Roast',Descriptor))  %>% 
+   filter(!grepl('Process',Descriptor)) %>% arrange(Descriptor)
+
+country %>% write_csv("by-country.csv")
+roast %>% write_csv("by-roast.csv")
+process %>% write_csv("by-process.csv")
+note %>% write_csv('by-flavor-note.csv')
