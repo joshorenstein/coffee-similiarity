@@ -1,30 +1,31 @@
-Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5
-Country_Brazil/Colombia,molasses,dark.chocolate,castillo,catuai,colombia
-Country_Brazil/Colombia/Honduras,heavy,black.cherry,Process_NA,caramel,chocolate
-Country_Brazil/Ethiopia,Process_NA,raspberry,caramel,Roast_Medium,sl28
-Country_Burundi,red.bourbon,black.tea,semi.sweet.chocolate,kiwi,lavender
-Country_Central & South America,rich,full.bodied,orange.peel,lime,Process_Various
-Country_Colombia,caturra,colombia,castillo,caramel,Process_Washed
-Country_Colombia/Ethiopia/Kenya,Country_Colombia/Ethiopia/Kenya,blend,fruity,milk.chocolate,Roast_Light-Medium
-Country_Colombia/Honduras/Guatemala,Country_Colombia/Honduras/Guatemala,various,dried.fruit,milk.chocolate,Roast_Medium
-Country_Congo,Country_Congo,pineapple,sweet,bourbon,Roast_Medium
-Country_Costa Rica,Process_Honey,gesha.m2,catuai..red.,red.grape,candied.sweetness
-Country_Ecuador,sidra,tropical.fruits,berry,kiwi,dried.cherry
-Country_El Salvador,pacamara,key.lime.pie,plum,pecan,cola
-Country_Ethiopia,heirloom,citrus,floral,Roast_Light,Process_Natural
-Country_Ethiopia/Sumatra/Peru,various,molasses,Roast_Medium-Dark,Process_Various,raspberry
+Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5,Sim_6,Sim_7,Sim_8,Sim_9,Sim_10
+Country_Brazil,yellow.bourbon,red.catuai,chocolate.fudge,cinnamon,honeycomb,Process_Natural,sweet,clove,fig,molasses
+Country_Brazil/Colombia,molasses,dark.chocolate,castillo,catuai,colombia,caturra,Roast_Medium,Process_Washed,sl28,sl34
+Country_Brazil/Colombia/Honduras,heavy,black.cherry,Process_NA,caramel,chocolate,Roast_NA,sl28,sl34,sudan.rume,gesha
+Country_Brazil/Ethiopia,Process_NA,raspberry,caramel,Roast_Medium,sl28,sl34,sudan.rume,gesha,sidra,gesha.1931
+Country_Burundi,red.bourbon,black.tea,semi.sweet.chocolate,kiwi,lavender,spice,red.currant,ripe.fruit,Roast_Light-Medium,bourbon
+Country_Central & South America,rich,full.bodied,orange.peel,Roast_Dark,lime,Process_Various,milk.chocolate,chocolate,bourbon,Roast_Medium
+Country_Colombia,caturra,colombia,castillo,caramel,Process_Washed,cranberry,almond.toffee,orange,dried.fruit,typica
+Country_Colombia/Ethiopia/Kenya,Country_Colombia/Ethiopia/Kenya,blend,fruity,milk.chocolate,Roast_Light-Medium,Process_Washed,sl28,sl34,sudan.rume,gesha
+Country_Colombia/Honduras/Guatemala,Country_Colombia/Honduras/Guatemala,various,dried.fruit,milk.chocolate,Roast_Medium,Process_Washed,sl28,sl34,sudan.rume,gesha
+Country_Congo,Country_Congo,pineapple,sweet,bourbon,Roast_Medium,Process_Washed,sl28,sl34,sudan.rume,gesha
+Country_Costa Rica,Process_Honey,gesha.m2,catuai..red.,red.grape,candied.sweetness,white.cherry,maple,bergamot,lemon.zest,jasmine
+Country_Ecuador,sidra,tropical.fruits,berry,kiwi,dried.cherry,hazelnut,cocoa,Roast_Light,typica,Process_Washed
+Country_El Salvador,pacamara,key.lime.pie,plum,pecan,cola,baker.s.chocolate,peach.ice.cream,almond.cake,almond,apple
+Country_Ethiopia,heirloom,citrus,floral,Roast_Light,Process_Natural,gesha.1931,landraces,illubabor.forest,watermelon,nectarine
+Country_Ethiopia/Sumatra/Peru,various,molasses,Roast_Medium-Dark,Process_Various,raspberry,chocolate,sl28,sl34,sudan.rume,gesha
 "Country_Ethiopia/Uganda
 ","Country_Ethiopia/Uganda
-",various,blueberry,lemon,Process_Various
-Country_Guatemala,gesha,java,hyacinth,orange.blossom,fresh.butter
-Country_Honduras,pacas,lychee,hazelnut,orange,blackberry
-Country_Kenya,sl34,Country_Kenya,ruiru.11,baitan,black.currant
-Country_Mexico,typica,marsellesa,shortbread.cookie,creamy,brown.apple
-Country_NA,berry.fruit,bittersweet.chocolate,roasted.almonds,red.cherry,mixed.nuts
-Country_Nicaragua,Country_Nicaragua,fruity,vanilla,citrus,Roast_Light
-Country_Panama,mango,dark.cherry,catuai,heavy,orange.peel
-Country_Papua New Guinea,mundo.novo,fudge,walnut,Country_Papua New Guinea,black.cherry
-Country_Peru,sparkling.cider,raw.sugar,dried.papaya,nut,typica
-Country_Rwanda,custard,green.grape,figs,silky,fig
-Country_South America/Africa,fruity,Process_Various,chocolate,Roast_NA,sl28
-Country_Uganda/Papua New Guinea/Sumatra,Country_Uganda/Papua New Guinea/Sumatra,graham.cracker,blend,Roast_Medium-Dark,cocoa
+",various,blueberry,lemon,Process_Various,Roast_Light,sl28,sl34,sudan.rume,gesha
+Country_Guatemala,gesha,java,hyacinth,orange.blossom,fresh.butter,butterscotch,peach,Process_Washed,honey,cocoa
+Country_Honduras,pacas,lychee,Roast_Dark,hazelnut,orange,blackberry,chocolate,Process_Washed,Roast_Light,sl28
+Country_Kenya,sl34,Country_Kenya,ruiru.11,baitan,black.currant,apricot,juicy,jammy,red.berries,tomato
+Country_Mexico,typica,marsellesa,shortbread.cookie,creamy,brown.apple,sugar,red.wine,bourbon,Roast_Light-Medium,Process_Washed
+Country_NA,berry.fruit,bittersweet.chocolate,roasted.almonds,red.cherry,mixed.nuts,sweet.cocoa,green.apple,fruit.preserves,Process_NA,Process_Various
+Country_Nicaragua,Country_Nicaragua,fruity,vanilla,citrus,Roast_Light,Process_Washed,sl28,sl34,sudan.rume,gesha
+Country_Panama,mango,dark.cherry,catuai,heavy,orange.peel,Process_Natural,cherry,gesha,jasmine,grape
+Country_Papua New Guinea,mundo.novo,fudge,walnut,Country_Papua New Guinea,black.cherry,typica,Roast_Medium,Process_Washed,sl28,sl34
+Country_Peru,sparkling.cider,raw.sugar,dried.papaya,nut,typica,almond,raisin,bourbon,milk.chocolate,ripe.fruit
+Country_Rwanda,custard,green.grape,figs,silky,fig,red.bourbon,orange,Process_Natural,Roast_NA,bourbon
+Country_South America/Africa,fruity,Process_Various,chocolate,Roast_NA,sl28,sl34,sudan.rume,gesha,sidra,gesha.1931
+Country_Uganda/Papua New Guinea/Sumatra,Country_Uganda/Papua New Guinea/Sumatra,graham.cracker,blend,Roast_Medium-Dark,cocoa,Process_Various,sl28,sl34,sudan.rume,gesha

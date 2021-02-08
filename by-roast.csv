@@ -1,6 +1,7 @@
-Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5
-Roast_Light,Process_Washed,citrus,Country_Ethiopia,Country_Ecuador,peach
-Roast_Light-Medium,Process_Washed,bourbon,sl28,sl34,Country_Kenya
-Roast_Medium,Process_Washed,milk.chocolate,caturra,cherry,bourbon
-Roast_Medium-Dark,smooth,toasted.marshmallow,Country_Ethiopia/Sumatra/Peru,Country_Uganda/Papua New Guinea/Sumatra,Process_Various
-Roast_NA,Process_Washed,almond.toffee,typica,jasmine,chocolate
+Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5,Sim_6,Sim_7,Sim_8,Sim_9,Sim_10
+Roast_Dark,rich,full.bodied,Country_Central & South America,Country_Honduras,hazelnut,chocolate,Process_Various,bourbon,Process_Washed,sl28
+Roast_Light,Process_Washed,citrus,Country_Ethiopia,Country_Ecuador,peach,floral,honey,gesha,pacamara,hazelnut
+Roast_Light-Medium,Process_Washed,bourbon,sl28,sl34,Country_Kenya,Country_Burundi,Country_Mexico,honeysuckle,cranberry,red.currant
+Roast_Medium,Process_Washed,milk.chocolate,caturra,cherry,bourbon,caramel,catuai,sweet,orange.peel,lemon.zest
+Roast_Medium-Dark,smooth,toasted.marshmallow,Country_Ethiopia/Sumatra/Peru,Country_Uganda/Papua New Guinea/Sumatra,Process_Various,yellow.bourbon,raspberry,dried.cherry,clove,various
+Roast_NA,Process_Washed,almond.toffee,typica,jasmine,chocolate,Country_NA,caturra,red.bourbon,red.catuai,mango

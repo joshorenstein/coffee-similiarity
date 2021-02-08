@@ -7,6 +7,8 @@ library(knitr)
 #Grab my coffee data from google docs
 coffee.data <- gsheet2tbl('docs.google.com/spreadsheets/d/1-SJa7tgXUdDIa3PlKONEkL44xQ8-RAhQK4v9Bp_-UUs/edit#gid=0')
 # Admin stuff here, nothing special 
+head(coffee.data)
+View(coffee.data)
 options(digits=2)
 
 #Clean some columns 
@@ -32,11 +34,12 @@ Notes.dummy <- lapply(Notes.split, function(x) table(factor(x, levels=lev2)))
 
 #New DataSet
 Data2 <- with(coffee.select, data.frame(Country,Process, Roast,do.call(rbind, cultivar.dummy),do.call(rbind,Notes.dummy)))
-View(Data2)
+
+#View(Data2)
 ############################
 #  Item Based Similarity   #
 ############################   
-results <- fastDummies::dummy_cols(Data2,remove_first_dummy = TRUE)
+results <- fastDummies::dummy_cols(Data2)
 results <- results %>% select(-c(Country:Roast))
 
 results[is.na(results)] <- 0 
@@ -57,16 +60,16 @@ for(i in 1:ncol(results)) {
     results.similarity[i,j]= getCosine(results[i],results[j])
   }
 }
-View(results.similarity)
+#View(results.similarity)
 # Output similarity results to a file
 write.csv(results.similarity,file="final-coffee-similarity.csv")
 
 # Get the top 3 neighbors for each
-data.coffee.neighbors <- matrix(NA, nrow=ncol(results.similarity),ncol=6,dimnames=list(colnames(results.similarity)))
+data.coffee.neighbors <- matrix(NA, nrow=ncol(results.similarity),ncol=11,dimnames=list(colnames(results.similarity)))
 
 for(i in 1:ncol(results)) 
 {
-  data.coffee.neighbors[i,] <- (t(head(n=6,rownames(results.similarity[order(results.similarity[,i],decreasing=TRUE),][i]))))
+  data.coffee.neighbors[i,] <- (t(head(n=11,rownames(results.similarity[order(results.similarity[,i],decreasing=TRUE),][i]))))
 }
 (data.coffee.neighbors)
 
@@ -76,18 +79,15 @@ rownames(data.coffee.neighbors) <- 1:nrow(data.coffee.neighbors)
 names(data.coffee.neighbors)
 df <- as.data.frame(data.coffee.neighbors) %>% 
   select(-V2) %>% 
-  rename(Sim_1=V3,Sim_2=V4,Sim_3=V5,Sim_4=V6,Sim_5=V7)
+  rename(Sim_1=V3,Sim_2=V4,Sim_3=V5,Sim_4=V6,Sim_5=V7,Sim_6=V8,Sim_7=V9,Sim_8=V10,Sim_9=V11,Sim_10=V12)
 
-View(df)
+#View(df)
 #filter by country
 country <- df %>% filter(grepl('Country',Descriptor)) %>%  arrange(Descriptor)
 roast <- df %>% filter(grepl('Roast',Descriptor)) %>% arrange(Descriptor)
 process <- df %>% filter(grepl('Process',Descriptor)) %>% arrange(Descriptor)
-note <- df %>% filter(!grepl('Country',Descriptor)) %>%
-   filter(!grepl('Roast',Descriptor))  %>% 
-   filter(!grepl('Process',Descriptor)) %>% arrange(Descriptor)
-
+View(country)
 country %>% write_csv("by-country.csv")
 roast %>% write_csv("by-roast.csv")
 process %>% write_csv("by-process.csv")
-note %>% write_csv('by-flavor-note.csv')
+
