@@ -34,8 +34,7 @@ Notes.dummy <- lapply(Notes.split, function(x) table(factor(x, levels=lev2)))
 
 #New DataSet
 Data2 <- with(coffee.select, data.frame(Country,Process, Roast,do.call(rbind, cultivar.dummy),do.call(rbind,Notes.dummy)))
-
-#View(Data2)
+View(Data2)
 ############################
 #  Item Based Similarity   #
 ############################   
@@ -60,7 +59,7 @@ for(i in 1:ncol(results)) {
     results.similarity[i,j]= getCosine(results[i],results[j])
   }
 }
-#View(results.similarity)
+
 # Output similarity results to a file
 write.csv(results.similarity,file="final-coffee-similarity.csv")
 
@@ -83,11 +82,16 @@ df <- as.data.frame(data.coffee.neighbors) %>%
 
 #View(df)
 #filter by country
+names(df)
 country <- df %>% filter(grepl('Country',Descriptor)) %>%  arrange(Descriptor)
 roast <- df %>% filter(grepl('Roast',Descriptor)) %>% arrange(Descriptor)
 process <- df %>% filter(grepl('Process',Descriptor)) %>% arrange(Descriptor)
-View(country)
+note_varietal <- df %>% 
+                    filter(!grepl('Country',Descriptor)) %>% 
+                    filter(!grepl('Process',Descriptor)) %>% 
+                    filter(!grepl('Roast_',Descriptor))
 country %>% write_csv("by-country.csv")
 roast %>% write_csv("by-roast.csv")
 process %>% write_csv("by-process.csv")
-
+note_varietal %>% write_csv("by-note-and-varietal.csv")
+View(note_varietal)

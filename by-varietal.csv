@@ -1,0 +1,10 @@
+Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5,Sim_6,Sim_7,Sim_8,Sim_9,Sim_10
+bourbon,Process_Washed,typica,Roast_Light-Medium,caturra,Country_Peru,Country_Mexico,dried.cherry,Roast_Medium,milk.chocolate,honey
+castillo,caturra,colombia,almond.toffee,Country_Colombia,dried.fruit,catimor,honeydew,smooth,green.apple,Country_Brazil/Colombia
+catuai,red.grape,candied.sweetness,pecan,nut,butterscotch,Country_Brazil/Colombia,Country_Panama,dark.chocolate,vanilla,Roast_Medium
+caturra,Country_Colombia,castillo,Process_Washed,colombia,typica,bourbon,Roast_Medium,caramel,almond.toffee,dried.cherry
+colombia,Country_Colombia,castillo,almond.toffee,caturra,pear,smooth,ripe.plum,cherry.cola,Country_Brazil/Colombia,dried.fruit
+heirloom,Country_Ethiopia,citrus,hops,yuzu,earl.grey,darjeeling.tea,Process_Pulped Natural/Honey,Process_Natural,peach,strawberry
+sl28,sl34,Country_Kenya,ruiru.11,baitan,black.currant,apricot,juicy,jammy,red.berries,tomato
+sl34,sl34,Country_Kenya,ruiru.11,baitan,black.currant,apricot,juicy,jammy,red.berries,tomato
+typica,Country_Mexico,Country_Peru,Process_Washed,bourbon,caturra,almond.toffee,dried.fruit,Country_Colombia,Roast_NA,marsellesa
