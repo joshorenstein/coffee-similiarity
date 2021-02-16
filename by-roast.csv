@@ -1,7 +1,7 @@
 Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5,Sim_6,Sim_7,Sim_8,Sim_9,Sim_10
-Roast_Dark,rich,full.bodied,Country_Honduras,chocolate,Process_Various,hazelnut,Country_NA,bourbon,Process_Washed,sudan.rume
+Roast_Dark,rich,full.bodied,Country_Honduras,Process_Various,chocolate,hazelnut,Country_NA,bourbon,Process_Washed,sudan.rume
 Roast_Light,Process_Washed,gesha,citrus,floral,Country_Panama,Country_Ethiopia,Process_Natural,peach,hazelnut,blackberry
 Roast_Light-Medium,Process_Washed,bourbon,currant,Country_Burundi,Country_Mexico,sl28,sl34,honeysuckle,cranberry,raspberry
 Roast_Medium,Process_Washed,milk.chocolate,cocoa,caturra,catuai,Process_Honey,bourbon,caramel,sweet,tangerine
 Roast_Medium-Dark,smooth,toasted.marshmallow,"Country_Ethiopia,Sumatra, Peru","Country_Uganda, Papua New Guinea, Sumatra",yellow.bourbon,raspberry,clove,Process_NA,various,chocolate
-Roast_NA,Process_Washed,typica,chocolate,almond,caturra,fruity,Process_NA,red.bourbon,red.catuai,mango
+Roast_NA,Process_Washed,Process_NA,typica,chocolate,almond,caturra,fruity,red.bourbon,red.catuai,mango

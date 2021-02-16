@@ -1,16 +1,16 @@
 Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5,Sim_6,Sim_7,Sim_8,Sim_9,Sim_10
-almond,Country_Peru,typica,sparkling.cider,caturra,dried.fruit,castillo,colombia,tangerine,raw.sugar,Process_NA
+almond,Country_Peru,typica,sparkling.cider,caturra,dried.fruit,castillo,colombia,tangerine,raw.sugar,Roast_NA
 apple,sugar.cane,black.tea,raw.sugar,Process_Washed,pacamara,typica,jasmine,Country_Mexico,gesha,Roast_NA
 blackberry,pacas,lychee,pomegranate,lemongrass,jammy,red.wine,honey,Roast_Light,Process_Washed,sl28
 caramel,Country_Colombia,Process_NA,cherry,caturra,castillo,colombia,honeydew,smooth,wild.berries,"Country_Brazil, Colombia, Honduras"
 cherry,caramel,Country_Colombia,plum,Process_Natural,caturra,colombia,sudan.rume,mango,smooth,maple
-chocolate,fruity,Roast_Dark,Process_Various,Process_NA,rich,full.bodied,dark.cherry,"Country_Brazil, Colombia, Honduras","Country_Ethiopia,Sumatra, Peru",Country_Various
+chocolate,fruity,Roast_Dark,Process_NA,rich,full.bodied,dark.cherry,"Country_Brazil, Colombia, Honduras","Country_Ethiopia,Sumatra, Peru",Country_Various,Country_NA
 citrus,Country_Ethiopia,spice,dried.fruit,vanilla,gesha.1931,illubabor.forest,marsellesa,maracaturra,tropical.fruit,Country_Nicaragua
-cocoa,Roast_Medium,caturra,Process_NA,dates,pecans,sugar.cane,honeycomb,wild.berries,dried.cherry,toasted.marshmallow
+cocoa,Roast_Medium,caturra,dates,pecans,sugar.cane,honeycomb,wild.berries,dried.cherry,toasted.marshmallow,Country_Sumatra
 floral,pink.bourbon,pomelo,dark.honey,juicy,Process_Anaerobic Washed,lime,Country_Ethiopia,peach,Roast_Light,baitan
 fruity,chocolate,blend,maracaturra,syrup,toffee,"Country_Colombia, Ethiopia, Kenya","Country_Colombia, Honduras, Guatemala",Country_Nicaragua,Country_Various,milk.chocolate
 honey,bourbon,Country_Guatemala,blackberry,lavender,papaya,clementine,orange,caturra,Process_Washed,Roast_Light-Medium
-lemon,villalobos,hops,maple,butterscotch,"Country_Ethiopia, Uganda",yellow.bourbon,cranberry,clove,catuai,pacamara
+lemon,villalobos,hops,maple,butterscotch,"Country_Ethiopia, Uganda",yellow.bourbon,cranberry,clove,Process_Various,catuai
 lime,catimor,orange.peel,floral,milk.chocolate,Process_Washed,pacamara,Country_Ethiopia,dark.chocolate,Roast_Medium,almond
 orange,sudan.rume,pacas,dates,pecans,lychee,custard,pear,dark.cherry,mulled.wine,caturra
 peach,java,pear,earl.grey,gesha,floral,black.tea,Country_Guatemala,Roast_Light,Process_Washed,pineapple

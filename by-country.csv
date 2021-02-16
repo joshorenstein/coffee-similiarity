@@ -13,7 +13,7 @@ Country_Costa Rica,red.grape,candied.sweetness,white.cherry,maple,Process_Honey,
 Country_Ecuador,sidra,tropical.fruits,berry,dried.cherry,kiwi,hazelnut,Roast_Light,cocoa,typica,Process_Washed
 Country_El Salvador,pacamara,nutty,baker.s.chocolate,plum,raspberry,cola,tangerine,brown.sugar,Process_Natural,bourbon
 Country_Ethiopia,heirloom,citrus,floral,Roast_Light,Process_Natural,gesha.1931,landraces,illubabor.forest,watermelon,nectarine
-"Country_Ethiopia, Uganda",various,raisin,Process_Various,blueberry,lemon,Roast_Light,sudan.rume,gesha,sl28,sl34
+"Country_Ethiopia, Uganda",Process_Various,various,raisin,blueberry,lemon,Roast_Light,sudan.rume,gesha,sl28,sl34
 "Country_Ethiopia,Sumatra, Peru",various,molasses,Roast_Medium-Dark,raspberry,Process_NA,chocolate,sudan.rume,gesha,sl28,sl34
 Country_Guatemala,java,butterscotch,gesha,Process_Washed,peach,honey,pineapple,lavender,clove,clementine
 Country_Honduras,pacas,lychee,Roast_Dark,hazelnut,blackberry,orange,chocolate,Process_Washed,Roast_Light,sudan.rume
@@ -27,4 +27,4 @@ Country_Peru,sparkling.cider,almond,typica,papaya,raw.sugar,milk.chocolate,bourb
 Country_Rwanda,custard,figs,silky,fig,red.bourbon,grape,orange,Roast_NA,Process_Natural,bourbon
 Country_Sumatra,grapefruit,Process_Honey,plum,cocoa,Roast_Medium,sudan.rume,gesha,sl28,sl34,castillo
 "Country_Uganda, Papua New Guinea, Sumatra","Country_Uganda, Papua New Guinea, Sumatra",graham.cracker,Roast_Medium-Dark,Process_NA,cocoa,sudan.rume,gesha,sl28,sl34,castillo
-Country_Various,Process_Various,fruity,chocolate,Roast_NA,sudan.rume,gesha,sl28,sl34,castillo,sidra
+Country_Various,fruity,Process_NA,chocolate,Roast_NA,sudan.rume,gesha,sl28,sl34,castillo,sidra
