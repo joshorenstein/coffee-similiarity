@@ -1,9 +1,9 @@
 Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5,Sim_6,Sim_7,Sim_8,Sim_9,Sim_10
-Process_Anaerobic Washed,pomelo,dark.honey,Process_Anaerobic Washed,floral,Country_Colombia,Roast_Light,sl28,sl34,sudan.rume,gesha
-Process_Honey,Country_Costa Rica,gesha.m2,catuai..red.,white.cherry,pear,maple,bergamot,lemon.zest,jasmine,orange
-Process_Lactic Acid,Process_Lactic Acid,strawberry,castillo,caramel,Country_Colombia,Roast_Light,sl28,sl34,sudan.rume,gesha
-Process_NA,caramel,fruit.preserves,Country_Brazil/Colombia/Honduras,Country_Brazil/Ethiopia,Country_NA,heavy,black.cherry,grape,chocolate,Roast_NA
-Process_Natural,Country_Brazil,strawberry,cherry,Country_Panama,yellow.bourbon,raspberry,Country_Ethiopia,heirloom,pacamara,jasmine
-Process_Pulped Natural/Honey,spice,fruity,citrus,heirloom,Country_Ethiopia,Roast_Medium,sl28,sl34,sudan.rume,gesha
-Process_Various,various,rich,full.bodied,golden.raisin,bittersweet.chocolate,roasted.almonds,red.cherry,mixed.nuts,sweet.cocoa,toasted.marshmallow
-Process_Washed,Roast_Light-Medium,caturra,bourbon,typica,Roast_Medium,Country_Colombia,milk.chocolate,Roast_Light,Roast_NA,sl28
+Process_Anaerobic Washed,pomelo,dark.honey,Process_Anaerobic Washed,floral,Country_Colombia,Roast_Light,sudan.rume,gesha,sl28,sl34
+Process_Honey,Country_Costa Rica,white.cherry,pear,maple,Country_Sumatra,bergamot,Roast_Medium,grapefruit,jasmine,gesha
+Process_Lactic Acid,Process_Lactic Acid,strawberry,castillo,caramel,Country_Colombia,Roast_Light,sudan.rume,gesha,sl28,sl34
+Process_NA,Country_NA,caramel,toasted.marshmallow,"Country_Brazil, Colombia, Honduras","Country_Brazil, Ethiopia","Country_Ethiopia,Sumatra, Peru","Country_Uganda, Papua New Guinea, Sumatra",Roast_Medium-Dark,cocoa,chocolate
+Process_Natural,strawberry,Country_Brazil,Country_Panama,yellow.bourbon,raspberry,cherry,Country_Ethiopia,Roast_Light,heirloom,catuai
+Process_Pulped Natural/Honey,spice,dried.fruit,citrus,heirloom,Country_Ethiopia,Roast_Medium,sudan.rume,gesha,sl28,sl34
+Process_Various,rich,full.bodied,"Country_Ethiopia, Uganda",Country_Various,Roast_Dark,various,chocolate,raisin,blueberry,lemon
+Process_Washed,Roast_Light-Medium,caturra,bourbon,typica,Roast_Medium,Roast_Light,Country_Colombia,milk.chocolate,sl28,sl34

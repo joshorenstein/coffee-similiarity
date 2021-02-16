@@ -1,17 +1,20 @@
 Descriptor,Sim_1,Sim_2,Sim_3,Sim_4,Sim_5,Sim_6,Sim_7,Sim_8,Sim_9,Sim_10
-blackberry,pacas,lychee,pomegranate,lemongrass,jammy,red.wine,honey,lavender,grapefruit,cranberry
-caramel,Process_NA,Country_Colombia,caturra,castillo,colombia,honeydew,smooth,wild.berries,cocoa.butter,fruit.preserves
-cherry,Process_Natural,sudan.rume,catuai..red.,mango,brown.apple,sugar,maple,wild.berries,cocoa.butter,Country_Panama
-chocolate,Roast_Dark,Process_Various,rich,full.bodied,dark.cherry,fruit.preserves,Country_Brazil/Colombia/Honduras,Country_Ethiopia/Sumatra/Peru,Country_Panama,Country_South America/Africa
-citrus,Country_Ethiopia,spice,fruity,vanilla,Roast_Light,gesha.1931,marsellesa,illubabor.forest,maracaturra,tropical.fruit
-cocoa,dates,pecans,honeycomb,toasted.marshmallow,Country_Uganda/Papua New Guinea/Sumatra,Country_Guatemala,yellow.bourbon,dried.cherry,Country_Ecuador,bourbon
-floral,pink.bourbon,lime,juicy,pomelo,dark.honey,Process_Anaerobic Washed,Country_Ethiopia,baitan,citrus,heirloom
-fruity,gesha.1931,maracaturra,citrus,syrup,Country_Colombia/Ethiopia/Kenya,Country_Nicaragua,Country_South America/Africa,Process_Pulped Natural/Honey,vanilla,spice
-honey,clementine,orange.blossom,fresh.butter,green.apple,blackberry,Country_Guatemala,lavender,red.currant,bourbon,Roast_Light
-lemon,villalobos,hops,golden.raisin,semi.sweet.chocolate,"Country_Ethiopia/Uganda
-",yellow.bourbon,cranberry,apple,clove,pacamara
-orange,sudan.rume,pacas,lychee,custard,dates,pecans,pear,honeysuckle,Country_Honduras,Country_Rwanda
-peach,java,hyacinth,pear,earl.grey,Country_Guatemala,pineapple,raisin,clove,heirloom,Roast_Light
-raspberry,cola,baker.s.chocolate,Country_Brazil/Ethiopia,Country_Ethiopia/Sumatra/Peru,Process_Natural,Roast_Medium-Dark,Roast_Light-Medium,sl28,sl34,Country_El Salvador
-strawberry,honeydew,yuzu,Process_Lactic Acid,Process_Natural,heavy,grapefruit,heirloom,jasmine,caramel,grape
-vanilla,gesha.1931,marsellesa,maracaturra,citrus,red.grape,candied.sweetness,butterscotch,Country_Nicaragua,fruity,catuai
+almond,Country_Peru,typica,sparkling.cider,caturra,dried.fruit,castillo,colombia,tangerine,raw.sugar,Process_NA
+apple,sugar.cane,black.tea,raw.sugar,Process_Washed,pacamara,typica,jasmine,Country_Mexico,gesha,Roast_NA
+blackberry,pacas,lychee,pomegranate,lemongrass,jammy,red.wine,honey,Roast_Light,Process_Washed,sl28
+caramel,Country_Colombia,Process_NA,cherry,caturra,castillo,colombia,honeydew,smooth,wild.berries,"Country_Brazil, Colombia, Honduras"
+cherry,caramel,Country_Colombia,plum,Process_Natural,caturra,colombia,sudan.rume,mango,smooth,maple
+chocolate,fruity,Roast_Dark,Process_Various,Process_NA,rich,full.bodied,dark.cherry,"Country_Brazil, Colombia, Honduras","Country_Ethiopia,Sumatra, Peru",Country_Various
+citrus,Country_Ethiopia,spice,dried.fruit,vanilla,gesha.1931,illubabor.forest,marsellesa,maracaturra,tropical.fruit,Country_Nicaragua
+cocoa,Roast_Medium,caturra,Process_NA,dates,pecans,sugar.cane,honeycomb,wild.berries,dried.cherry,toasted.marshmallow
+floral,pink.bourbon,pomelo,dark.honey,juicy,Process_Anaerobic Washed,lime,Country_Ethiopia,peach,Roast_Light,baitan
+fruity,chocolate,blend,maracaturra,syrup,toffee,"Country_Colombia, Ethiopia, Kenya","Country_Colombia, Honduras, Guatemala",Country_Nicaragua,Country_Various,milk.chocolate
+honey,bourbon,Country_Guatemala,blackberry,lavender,papaya,clementine,orange,caturra,Process_Washed,Roast_Light-Medium
+lemon,villalobos,hops,maple,butterscotch,"Country_Ethiopia, Uganda",yellow.bourbon,cranberry,clove,catuai,pacamara
+lime,catimor,orange.peel,floral,milk.chocolate,Process_Washed,pacamara,Country_Ethiopia,dark.chocolate,Roast_Medium,almond
+orange,sudan.rume,pacas,dates,pecans,lychee,custard,pear,dark.cherry,mulled.wine,caturra
+peach,java,pear,earl.grey,gesha,floral,black.tea,Country_Guatemala,Roast_Light,Process_Washed,pineapple
+plum,apricot,Country_Sumatra,cherry,Country_El Salvador,sl28,sl34,bergamot,papaya,cola,Country_Kenya
+raspberry,currant,baker.s.chocolate,nougat,"Country_Brazil, Ethiopia","Country_Ethiopia,Sumatra, Peru",Roast_Medium-Dark,Process_Natural,Roast_Light-Medium,Country_El Salvador,sl28
+strawberry,Process_Natural,honeydew,cantaloupe,complex,yuzu,Country_Bali,Process_Lactic Acid,heavy,heirloom,caramel
+vanilla,gesha.1931,marsellesa,maracaturra,citrus,red.grape,candied.sweetness,shortbread.cookie,butterscotch,Country_Mexico,Country_Nicaragua

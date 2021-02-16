@@ -8,7 +8,7 @@ library(knitr)
 coffee.data <- gsheet2tbl('docs.google.com/spreadsheets/d/1-SJa7tgXUdDIa3PlKONEkL44xQ8-RAhQK4v9Bp_-UUs/edit#gid=0')
 # Admin stuff here, nothing special 
 head(coffee.data)
-View(coffee.data)
+#View(coffee.data)
 options(digits=2)
 
 #Clean some columns 
@@ -23,18 +23,32 @@ coffee.data$Notes <- tolower(coffee.data$Notes)
 #keep relevant columns
 coffee.select <- coffee.data %>%  select(Country,Process,Cultivar,Roast,Notes)
 head(coffee.select)
+
+
 #make dummy variables from comma separated columns
 cultivar.split <- strsplit(coffee.select$Cultivar, ", ")
+cultivar.split
 lev <- unique(unlist(cultivar.split))
 cultivar.dummy <- lapply(cultivar.split, function(x) table(factor(x, levels=lev)))
 
+lev <- unique(unlist(cultivar.split))
+leva <- unlist(cultivar.split)
+levb <- table(leva)
+levc <- as.data.frame(levb) 
+levd <- levc %>% filter(Freq>4)
+levd
+
 Notes.split <- strsplit(coffee.select$Notes, ", ")
 lev2 <- unique(unlist(Notes.split))
+lev3 <- unlist(Notes.split)
+lev4 <- table(lev3)
+lev5 <- as.data.frame(lev4) 
+lev6 <- lev5 %>% filter(Freq>4) 
 Notes.dummy <- lapply(Notes.split, function(x) table(factor(x, levels=lev2)))
 
 #New DataSet
 Data2 <- with(coffee.select, data.frame(Country,Process, Roast,do.call(rbind, cultivar.dummy),do.call(rbind,Notes.dummy)))
-View(Data2)
+
 ############################
 #  Item Based Similarity   #
 ############################   
@@ -83,15 +97,31 @@ df <- as.data.frame(data.coffee.neighbors) %>%
 #View(df)
 #filter by country
 names(df)
-country <- df %>% filter(grepl('Country',Descriptor)) %>%  arrange(Descriptor)
+
 roast <- df %>% filter(grepl('Roast',Descriptor)) %>% arrange(Descriptor)
 process <- df %>% filter(grepl('Process',Descriptor)) %>% arrange(Descriptor)
-note_varietal <- df %>% 
+country <- df %>% filter(grepl('Country',Descriptor)) %>% arrange(Descriptor)
+
+note <- df %>% 
                     filter(!grepl('Country',Descriptor)) %>% 
                     filter(!grepl('Process',Descriptor)) %>% 
-                    filter(!grepl('Roast_',Descriptor))
+                    filter(!grepl('Roast_',Descriptor)) %>% 
+                    inner_join(lev6,by=c("Descriptor"="lev3")) %>% arrange(Descriptor) %>% 
+                    select(-c(Freq))
+
+varietal <- df %>% 
+  filter(!grepl('Country',Descriptor)) %>% 
+  filter(!grepl('Process',Descriptor)) %>% 
+  filter(!grepl('Roast_',Descriptor)) %>% 
+  inner_join(levd,by=c("Descriptor"="leva")) %>% 
+  arrange(Descriptor) %>% 
+  select(-c(Freq))
+
 country %>% write_csv("by-country.csv")
 roast %>% write_csv("by-roast.csv")
 process %>% write_csv("by-process.csv")
-note_varietal %>% write_csv("by-note-and-varietal.csv")
-View(note_varietal)
+note %>% write_csv("by-flavor-note.csv")
+varietal %>% write_csv("by-varietal.csv")
+#View(varietal)
+#View(country)
+#View(note)
